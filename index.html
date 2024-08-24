@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chusco Barbershop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="preview.png" alt="Logo de Chusco Barbershop" class="logo">
+        <h1>Chusco Barbershop</h1>
+        <!-- Nueva frase añadida aquí -->
+        <p class="slogan">A usted le hace falta un corte, venga y se pone fresco ne</p>
+    </header>
+    <main>
+        <section id="horarios">
+            <h2>Horarios</h2>
+            <ul>
+                <li onclick="mostrarHorario('lunes')">Lunes</li>
+                <li onclick="mostrarHorario('martes')">Martes</li>
+                <li onclick="mostrarHorario('miercoles')">Miércoles</li>
+                <li onclick="mostrarHorario('jueves')">Jueves</li>
+                <li onclick="mostrarHorario('viernes')">Viernes</li>
+                <li onclick="mostrarHorario('sabado')">Sábado</li>
+                <li onclick="mostrarHorario('domingo')">Domingo</li>
+            </ul>
+            <p id="horario"></p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Instagram: <a href="https://instagram.com/iam_chusco" target="_blank">@iam_chusco</a></p>
+            <p>Teléfono: <a href="tel:+50687843410">+506 8784 3410</a></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
